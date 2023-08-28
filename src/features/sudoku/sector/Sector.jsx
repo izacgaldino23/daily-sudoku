@@ -4,9 +4,9 @@ function Sector() {
 	let tiles = [...Array(9)].map((_, index) => index+1)
 
 	return (
-		<>
-			{tiles.map(item => <Tile key={item} />)}
-		</>
+		<div className='Sector'>
+			{tiles.map(item => <Tile key={item}>{item}</Tile>)}
+		</div>
 	)
 }
 

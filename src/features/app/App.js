@@ -3,7 +3,9 @@ import Sudoku from '../sudoku/Sudoku'
 
 function App() {
 	return (
-		<Sudoku />
+		<div className='App'>
+			<Sudoku/>
+		</div>
 	);
 }
 
